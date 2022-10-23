@@ -760,7 +760,7 @@ body {
   margin-bottom: 4%;
 }
 
-.mainDiv> div {
+.mainDiv > div {
   width: 48%;
   height: 470px;
   margin-bottom: 4%;
@@ -822,7 +822,7 @@ body {
   font-size: 18px;
   padding: 3px 2px;
   border: none;
-  border-radius: 5% 5% 5% 5% ;
+  border-radius: 5% 5% 5% 5%;
   font-weight: bolder;
 }
 
@@ -850,7 +850,7 @@ body {
   background-color: rgb(255, 234, 113);
 }
 
-#fontosm{
+#fontosm {
   width: 30%;
   height: 15%;
   padding: 4%;
@@ -859,7 +859,7 @@ body {
   border: 2px solid rgb(221, 220, 220);
 }
 
-.rowIs{
+.rowIs {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -867,67 +867,70 @@ body {
   margin-bottom: 5%;
 }
 
-.contact-icon{
+.contact-icon {
   margin: auto;
   width: 35%;
   height: 70%;
 }
 
-#atag{
+#atag {
   text-decoration: none;
   color: black;
 }
 
-#cicin{
+#cicin {
   text-decoration: none;
   color: #000;
 }
 
-@media (max-width: 600px){
-  
-  #card1{
+@media (max-width: 600px) {
+  #card1 {
     height: 100%;
     width: 100%;
     text-align: center;
   }
 
-  .content{
+  .content {
     display: block;
   }
 
-  .mainDiv{
+  .mainDiv {
     display: block;
     height: 800px;
   }
- 
-  .projectImage{
+
+  .projectImage {
     margin: auto;
     width: 210%;
     height: 60%;
     margin-bottom: -225%;
   }
 
-  #projectDes{
+  #projectDes {
     width: 100%;
     height: 100%;
     margin-top: 0%;
   }
 
-  .btns{
+  .btns {
     height: 60px;
   }
 
-  .rowIs{
+  .rowIs {
     display: block;
     margin-top: 2%;
   }
 
-  #fontosm{
+  #fontosm {
     margin: auto;
     width: 80%;
     margin-top: 4%;
     height: 100%;
   }
-  
- 
+}
+#stat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
