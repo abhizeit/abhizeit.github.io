@@ -933,4 +933,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 20px;
+}
+#graphs {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
 }
